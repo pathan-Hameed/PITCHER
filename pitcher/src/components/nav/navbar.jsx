@@ -7,13 +7,9 @@ function Nav () {
     <nav>
      <h1>PITCHER</h1>
       <ul>
-        <li>Home</li>
-        <li>Services</li>
-        <li>Contact</li>
-        <li>About us</li>
+      <li><button id="bttn1" className="button" type="submit">Login</button></li>
+      <li><button id="bttn2" className="button" type="submit">Register</button></li>
       </ul>
-      <button id="bttn1" className="button" type="submit">Login</button>
-      <button id="bttn2" className="button" type="submit">Register</button>
       </nav>
     </>
 

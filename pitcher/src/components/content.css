@@ -1,10 +1,56 @@
-.main-content{
-    display: flex;
-    flex-direction: row;
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 40px;
+  height: 100vh;
+  background-color: rgb(192, 218, 225);
+}
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  max-width: 800px;
+  
+  border: none;
+  border-radius: 20px;
+  margin-top: 0px;
+  padding: 20px;
+  
 }
 
-.container1{
-    max-width: 30vw;
-    height: 70vh;
-    border: 1px gray;
+.section1{
+  width: 600px;
+}
+.section1 img{
+  position: relative;
+  width: 600px;
+  height: 300px;
+}
+
+.section2{
+  width: 300px;
+  height: 450px;
+  border: 1px solid gray;
+  background-color: rgb(232, 232, 233);
+}
+.section2 h2{
+  font-weight: bolder;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 50px;
+}
+.section2 button{
+  width: 300px;
+  height: 50px;
+  margin-top: 10px;
+  background-color: green;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
 }

@@ -8,12 +8,12 @@ nav{
     padding: 5px;
     margin: 0;
     background-color: rgb(55, 178, 220);
-    min-height: 60px;
+    min-height: 40px;
 }
 
-h1{
+nav h1{
     color: white;
-    padding-right: 460px;
+    padding-right: 689px;
     margin: 0;
     font-weight:bold;
     font-size: xx-large;
@@ -30,13 +30,12 @@ ul{
 ul li {
     list-style-type: none;
     color: white;
-    font-weight: 800;
+    font-weight: 500;
 }
 
 .button{
     width: 100px;
     height: 30px;
-    margin: 15px;
     border-radius: 5px;
     border: none;
     background-color: green;
